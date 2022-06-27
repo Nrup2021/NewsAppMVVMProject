@@ -7,7 +7,7 @@ import com.example.newsappmvvmproject.ui.models.Article
 // get data from DB and API
 
 class NewsRepository(
-    val db: ArticleDatabase
+    private val db: ArticleDatabase
 ) {
     // API Operations
     suspend fun getBreakingNews(countryCode: String, pageNumber: Int) =
