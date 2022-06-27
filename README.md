@@ -8,8 +8,10 @@ End Points
 ---
 - BASE URL = https://newsapi.org
 - API KEY = cb74cdb845fe4bd081e3488ab6579ff2
-- top-headlines = https://newsapi.org/v2/top-headlines?country=us&page=1&apikey=cb74cdb845fe4bd081e3488ab6579ff2
-- everything = https://newsapi.org/v2/everything?q=developer&page=1&apikey=cb74cdb845fe4bd081e3488ab6579ff2
+- top-headlines (Listing of News)
+https://newsapi.org/v2/top-headlines?country=us&page=1&apikey=cb74cdb845fe4bd081e3488ab6579ff2
+- everything (Search)
+https://newsapi.org/v2/everything?q=developer&page=1&apikey=cb74cdb845fe4bd081e3488ab6579ff2
 
 Features
 ---
